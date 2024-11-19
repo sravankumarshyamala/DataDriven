@@ -12,7 +12,7 @@ import utilities.ExcelFileUtil;
 public class AppTest extends Base
 
 {
-	static String Input="./FileInput/empdata.xlsx";
+	String Input="./FileInput/empdata.xlsx";
 	String Output="./FileOutput/DataDrivenResults.xlsx";
 	String TC_Sheet="Addemp";
 	@Test
